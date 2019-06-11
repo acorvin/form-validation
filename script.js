@@ -23,7 +23,7 @@ $('#submitButton').click(function() {
   }
   // Missing field error alert
   if (fieldsMissing != '') {
-    errorMessage += '<p>The following filds are missing</p>' + fieldsMissing;
+    errorMessage += '<p>The following fields are missing</p>' + fieldsMissing;
   }
   // Validation checks
   if (isEmail($('#email').val()) == false && fieldsMissing == false) {
