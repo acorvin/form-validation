@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Form Validation</title>
+    <!-- jQuery -->
+    <script src="./jquery/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="successMessage">Message Sent</div>
+      <div id="errorMessage"></div>
+      <!-- Email -->
+      <label for="email">Email</label>
+      <input
+        type="text"
+        name="email"
+        id="email"
+        placeholder="eg. name@email.com"
+      />
+      <!-- Phone -->
+      <label for="phone">Phone</label>
+      <input
+        type="text"
+        name="phone"
+        id="phone"
+        placeholder="eg. (720) 222-1111"
+      />
+      <!-- Password -->
+      <label for="password">Password</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="password"
+      />
+      <!-- Confirm Password -->
+      <label for="password-confirm">Confirm Password</label>
+      <input
+        type="password"
+        name="passwordConfirm"
+        id="passwordConfirm"
+        placeholder="confirm password"
+      />
+      <!-- Sumbit -->
+      <div class="container m-5">
+        <input type="submit" id="submitButton" value="Sign Up" />
+      </div>
+    </div>
+    <!-- JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
